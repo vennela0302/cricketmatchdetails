@@ -1,7 +1,7 @@
 GET http://localhost:3000/players/
 ###
 
-GET http://localhost:3000/players/2/
+GET http://localhost:3000/players/1/
 ###
 
 PUT http://localhost:3000/players/2/
@@ -12,3 +12,13 @@ Content-Type: application/json
 }
 ###
 
+GET http://localhost:3000/matches/5/
+
+###
+GET http://localhost:3000/players/2/matches
+
+###
+GET http://localhost:3000/matches/4/players
+
+###
+GET http://localhost:3000/players/1/playerScores
